@@ -7,9 +7,9 @@ Examples:
 =========
 Valid queries:
 --------------
-SELECT Customers.Name FROM Customers WHERE Customers.Age=25;
-SELECT Customers.Name FROM Customers WHERE Customers.Name=’Mike’;
-SELECT DISTINCT Customers.Name FROM Customers WHERE Customers.Age=25;
+* SELECT Customers.Name FROM Customers WHERE Customers.Age=25;
+* SELECT Customers.Name FROM Customers WHERE Customers.Name=’Mike’;
+* SELECT DISTINCT Customers.Name FROM Customers WHERE Customers.Age=25;
 SELECT Customers.Name,Orders.Price FROM Customers,Orders WHERE Customers.Name=Orders.CustomerName;
 SELECT Customers.Name,Orders.Price FROM Customers,Orders WHERE Customers.Name=Orders.CustomerName AND Orders.Price>1000;
 SELECT Customers.Name,Orders.Price FROM Customers,Orders WHERE (Customers.Name=Orders.CustomerName) AND Orders.Price>1000;
