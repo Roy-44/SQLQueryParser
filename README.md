@@ -6,7 +6,7 @@ The query must end with ';' and must contain 'SELECT', 'FROM' and 'WHERE'.
 Examples:
 ---------
 Valid queries:
-
+==============
 SELECT Customers.Name FROM Customers WHERE Customers.Age=25;
 SELECT Customers.Name FROM Customers WHERE Customers.Name=’Mike’;
 SELECT DISTINCT Customers.Name FROM Customers WHERE Customers.Age=25;
